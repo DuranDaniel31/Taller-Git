@@ -1,6 +1,6 @@
 """
  Fecha 20/09/2023 
- Autor: Daniel Bedoya 
+ Autor: Daniel Bedoya - Juan Rojas Borbon 
  Objetivo: Se requiere un software que calcule si un aprendiz tiene el estilo de aprendizaje Asimilador. 
  Para ello deben realizarse 7 preguntas de respuesta SI o NO.
  Si el aprendiz obtuvo 4 o más respuestas en SI
@@ -34,6 +34,13 @@ while option4 != 1 and option4 != 2:
     print ("Respuesta incorrecta")
     option4 = int(input("Digite 1. SI 2. NO "))
 if option4 == 1: 
+    result += 1
+
+option5 =  int(input("¿Tienes tendencia a destacar en asignaturas que requieren comprensión de teorías y conceptos, como las matemáticas o la física? \n 1.SI \n 2.NO \n "))
+while option5 != 1 and option5 != 2:
+    print ("Respuesta incorrecta")
+    option5 = int(input("Digite 1. SI 2. NO "))
+if option5 == 1: 
     result += 1
 
 
